@@ -1,0 +1,42 @@
+{
+  "invoice_number": "INV-2026-001",
+  "issue_date": "2026-03-28",
+  "due_date": "2026-04-28",
+  "currency": "USD",
+  "discount_pct": "5",
+  "notes": "Payment via bank transfer. Thank you!",
+  "from_address": {
+    "name": "Acme Studio",
+    "street": "123 Design Ave",
+    "city": "New York, NY 10001",
+    "country": "USA",
+    "email": "billing@acmestudio.com"
+  },
+  "to_address": {
+    "name": "TechCorp Ltd",
+    "street": "456 Startup Blvd",
+    "city": "San Francisco, CA 94105",
+    "country": "USA",
+    "email": "accounts@techcorp.com"
+  },
+  "items": [
+    {
+      "description": "UI/UX Design — Dashboard",
+      "quantity": "1",
+      "unit_price": "2400.00",
+      "tax_rate": "8"
+    },
+    {
+      "description": "Logo & Branding Package",
+      "quantity": "1",
+      "unit_price": "950.00",
+      "tax_rate": "8"
+    },
+    {
+      "description": "Consulting (hours)",
+      "quantity": "4",
+      "unit_price": "150.00",
+      "tax_rate": "0"
+    }
+  ]
+}
