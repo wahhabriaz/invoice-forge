@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "PDF invoice and report generator"
 requires-python = ">=3.11"
 dependencies = [
-    "weasyprint>=62",
+    "pdfkit>=1.0",
     "jinja2>=3.1",
     "pydantic>=2.6",
     "pydantic-settings>=2.2",
