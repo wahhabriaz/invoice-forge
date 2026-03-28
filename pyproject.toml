@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-forge"
+version = "0.1.0"
+description = "PDF invoice and report generator"
+requires-python = ">=3.11"
+dependencies = [
+    "weasyprint>=62",
+    "jinja2>=3.1",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "click>=8.1",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[project.scripts]
+invoice-forge = "invoice_forge.cli:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
